@@ -1,15 +1,16 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+
 import HeroSetion from "./components/HeroSetion";
-import Services from "./components/Services";
+import OurServices from "./components/OurServices";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
     <main className="">
-      <Header />
+      
       <HeroSetion/>
-      <Services/>
-      <Footer/>
+      <OurServices/>
+      <Testimonials/>
+      
     </main>
   );
 }

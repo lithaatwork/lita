@@ -8,10 +8,10 @@ import {
 } from "react-icons/tb";
 import { HiChevronRight } from "react-icons/hi2";
 
-const Services = () => {
+const OurServices = () => {
   return (
     <Container>
-      <section className="my-8 ">
+      <section className="my-16 ">
         <div className=" py-8 px-4 mx-auto max-w-screen-xl  sm:py-16 lg:px-6">
           <div className=" mb-8 lg:mb-16">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-900 ">
@@ -93,4 +93,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default OurServices;

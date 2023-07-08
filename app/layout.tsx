@@ -1,5 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export const metadata: Metadata = {
   title: 'Lita At Work',
@@ -13,7 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-slate-50'>{children}</body>
+      <body className=''>
+      <Header />
+        {children}
+        <Footer/>
+        </body>
     </html>
   )
 }
