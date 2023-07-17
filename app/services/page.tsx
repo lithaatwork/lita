@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../components/Container'
+import VisaTypes from './VisaTypes'
 
 const Services = () => {
   return (
@@ -11,13 +12,7 @@ const Services = () => {
     ></div>
     <Container>
     <div> <h1>Our Services</h1></div>
-    <div className='flex flex-col'>
-        <div className='flex'>
-
-
-        </div>
-
-    </div>
+      <VisaTypes/>
 
 
     </Container>
