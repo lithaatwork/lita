@@ -7,12 +7,13 @@ import { HiOutlineXMark } from "react-icons/hi2";
 
 type ModalProps = {
   isOpen: boolean;
-  title: string
+  title?: string
   closeModal: () => void;
+  sizeLg?: boolean
   children: React.ReactNode;
 };
 
-const Modal = ({ isOpen,title, closeModal, children }: ModalProps) => {
+const Modal = ({ isOpen,title, closeModal, sizeLg, children }: ModalProps) => {
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -40,7 +41,7 @@ const Modal = ({ isOpen,title, closeModal, children }: ModalProps) => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className={`w-full ${sizeLg ? 'max-w-[72rem] ': 'max-w-lg '} transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all`}>
                   <div className="flex justify-end">
                     <HiOutlineXMark
                       className="cursor-pointer h-6 w-6 "

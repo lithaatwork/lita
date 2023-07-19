@@ -30,7 +30,7 @@ const Footer = () => {
             ))}
           </div>
           <span className="text-sm text-gray-500 sm:text-center ">
-            © {Year} <span className="hover:underline">Lita At Work™</span>.
+            © {Year} <span className="hover:underline">Litha At Work™</span>.
             All Rights Reserved.
           </span>
         </div>

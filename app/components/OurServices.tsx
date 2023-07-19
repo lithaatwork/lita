@@ -38,7 +38,7 @@ const OurServices = () => {
               </p>
               <Link
                 href="/services"
-                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-slate-700 hover:bg-slate-900 "
+                className="primary-btn"
               >
                 Read More
                 <HiChevronRight />
@@ -59,7 +59,7 @@ const OurServices = () => {
               </p>
               <Link
                 href="/services"
-                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-slate-700 hover:bg-slate-900 "
+                className="primary-btn"
               >
                 Read More
                 <HiChevronRight />
@@ -80,7 +80,7 @@ const OurServices = () => {
               </p>
               <Link
                 href="/services"
-                className="inline-flex items-center justify-center px-5 py-3  text-base font-medium text-center text-white rounded-lg bg-slate-700 hover:bg-slate-900 "
+                className="primary-btn "
               >
                 Read More
                 <HiChevronRight />
