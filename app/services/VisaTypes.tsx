@@ -9,9 +9,7 @@ import RelativeVisa from "./RelativeVisa";
 import SpousalVisa from "./SpousalVisa";
 import RetiredVisa from "./RetiredVisa";
 
-type CircleLetters = {
-  [key: string]: JSX.Element;
-};
+
 
 const VisaTypes = () => {
  

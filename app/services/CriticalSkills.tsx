@@ -15,11 +15,8 @@ const CriticalSkills = () => {
       <button className="primary-btn" onClick={OpenModal}>
         View Requirements
       </button>
-      <Modal isOpen={isOpen} title={""} closeModal={closeModal} sizeLg>
+      <Modal isOpen={isOpen} title={"Critical Skills"} closeModal={closeModal} sizeLg>
         <section className="p-5">
-          <h1 className="mb-4 text-xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl ">
-            Critical Skills
-          </h1>
           <div className="p-3 bg-slate-200 text-slate-700 rounded-md">
             <p>
               Applications for permanent residency in South Africa are assessed

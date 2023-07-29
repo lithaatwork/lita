@@ -23,16 +23,16 @@ export const visaData = [
     {
         type: "relative",
         title: "Relative Visa",
-        shortDescr: "The granting of Permanent Residency Permits primarily focuses on individuals who can contribute significantly to expanding South Africa's economic foundation. "
+        shortDescr: "If you are an immediate family member of a South African citizen or permanent resident, you can apply for a relative's permit after meeting the financial requirements stated in the Immigration Act, 2002. "
     },
     {
         type: "spousal",
         title: "Spousal Visa",
-        shortDescr: "The granting of Permanent Residency Permits primarily focuses on individuals who can contribute significantly to expanding South Africa's economic foundation. "
+        shortDescr: "The granting of Spousal Visa is to individuals who wish to get married to a South Africa Citizen or Permanent Resident. "
     },
     {
         type: "retired",
         title: "Retired Visa",
-        shortDescr: "The granting of Permanent Residency Permits primarily focuses on individuals who can contribute significantly to expanding South Africa's economic foundation. "
+        shortDescr: "To retire in South Africa, individuals can apply for a retired person visa if they receive at least R37,000 per month from a pension fund or have a net worth or a combination of assets generating a minimum monthly income of R37,000."
     }
 ]

@@ -49,8 +49,8 @@ const Modal = ({ isOpen,title, closeModal, sizeLg, children }: ModalProps) => {
                     />
                   </div>
                   <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium my-3 leading-6 text-gray-900"
+                    as="h3" 
+                    className=" mb-4 text-xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl "
                   >
                     {title}
                   </Dialog.Title>

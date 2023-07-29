@@ -10,90 +10,104 @@ const SpousalVisa = () => {
   const OpenModal = () => {
     setIsOpen(true);
   };
-  
+
   return (
     <>
       <button className="primary-btn" onClick={OpenModal}>
         View Requirements
       </button>
-      <Modal isOpen={isOpen} title={""} closeModal={closeModal} sizeLg>
+      <Modal
+        isOpen={isOpen}
+        title={"Spousal Visa"}
+        closeModal={closeModal}
+        sizeLg
+      >
         <section className="p-5">
-          <h1 className="mb-4 text-xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl ">
-            Study Visa
-          </h1>
           <div className="p-3 bg-slate-200 text-slate-700 rounded-md">
             <p>
-              If you are an international student who wishes to pursue studies
-              in South Africa, you can apply for a study visa by completing Form
-              BI-1738. Study visas should be applied for at the VFS Centre
-              nearest to the educational institution where you plan to study, or
-              at the nearest South African embassy, mission, or consulate
-              abroad.
+              Applicants seeking a permanent residence permit may need to
+              provide evidence of being married to a citizen or permanent
+              resident for at least five years. They must also submit a
+              declaration of support from their citizen or permanent resident
+              spouse, along with the spouse&apos;s identity document. If the
+              spouse is a permanent resident, a copy of their permanent
+              residence permit is also required.
             </p>
           </div>
           <div className="my-5">
             <h3 className="text-lg">
-              The following supporting documents must be submitted along with
-              the BI-1738 application form:{" "}
+              The following are the documents required for applicants applying
+              for a permanent residence permit based on being a spouse of a
+              citizen or permanent resident for at least five years:
             </h3>
-            <ol className="list-disc mt-3 bg-purple-100 text-purple-900 p-5  rounded-md">
-                <li>
-                  A passport valid for at least 30 days after the intended visit
-                  expires.
-                </li>
-                <li>Payment of the required fee.</li>
-                <li>A vaccination certificate, if mandated by the Act.</li>
-                <li>
-                  Proof of financial capability to cover living expenses during
-                  your stay in the country and to pay for tuition fees. This can
-                  be demonstrated through bank statements, available cash, or
-                  travelers&rsquo; cheques.
-                </li>
-                <li>Proof of medical insurance.</li>
-                <li>
-                  A cash deposit equivalent to the value of a return ticket.
-                </li>
-                <li>
-                  For African students, an undertaking from the relevant
-                  government to assume full responsibility for the student and
-                  cover all associated costs in the event of deportation.
-                </li>
-                <li>Medical and radiology reports.</li>
-                <li>An unabridged birth certificate for minors.</li>
-                <li>
-                  In the case of minors, details of the person in South Africa
-                  who will act as the guardian, along with a letter from that
-                  person confirming guardianship.
-                </li>
-                <li>
-                  Consent from both parents for your stay in South Africa, or
-                  from the parent with sole custody, along with proof of sole
-                  custody.
-                </li>
-                <li>
-                  An official acceptance letter from the educational institution
-                  where you intend to study, confirming provisional acceptance
-                  and the duration of the course.
-                </li>
-                <li>
-                  Proof of annual medical coverage for the duration of the
-                  study, obtained from a medical scheme registered under the
-                  Medical Schemes Act.
-                </li>
-                <li>
-                  If you are 18 years or older, a police clearance certificate
-                  from each country where you resided for 12 months or longer
-                  since turning 18 must be submitted.
-                </li>
+            <ol className="list-disc mt-3 bg-teal-100 text-teal-900 p-5  rounded-md">
+              <li>
+                Renewed temporary resident visa while awaiting the permanent
+                residence permit outcome.
+              </li>
+              <li>VFS appointment letter.</li>
+              <li>
+                Duly completed DHA-947 form online (handwritten forms not
+                accepted).
+              </li>
+              <li>
+                Payment receipt of the application fee (R1550) if paid through
+                Electronic Fund Transfer (EFT).
+              </li>
+              <li>Valid original passport and passport photograph.</li>
+              <li>
+                Valid spousal visa for temporary sojourn if applying within the
+                Republic.
+              </li>
+              <li>Unabridged birth certificate or birth record extract.</li>
+              <li>Deed poll (name, surname, or sex change) if applicable.</li>
+              <li>
+                Original police clearance certificate from countries of
+                residence for over 12 months since turning 18 (not older than
+                six months at submission, except for South Africa).
+              </li>
+              <li>Medical report not older than six months.</li>
+              <li>Yellow fever vaccination certificate if applicable.</li>
+              <li>
+                Marriage certificate, notarial agreement, customary union
+                certificate, or civil union certificate as proof of being a
+                spouse for five years.
+              </li>
+              <li>
+                Notarial agreement confirming the permanent spousal relationship
+                for at least two years before the visa application and five
+                years at the time of permanent residence permit application, and
+                that neither party is in another marriage or relationship.
+              </li>
+              <li>
+                Divorce decree or death certificate of the deceased spouse if
+                applicable.
+              </li>
+              <li>
+                Declaration of support from the citizen or permanent resident
+                spouse.
+              </li>
+              <li>Proof of financial support between spouses.</li>
+              <li>
+                Copy of the identity document of the citizen or permanent
+                resident spouse.
+              </li>
+              <li>
+                Copy of the permanent residence permit if the spouse is a
+                permanent resident.
+              </li>
+              <li>
+                Present yourself for biometrics at the visa facilitation centre.
+              </li>
             </ol>
-              <h3 className="text-lg my-3">When processing study permit applications, the following considerations are given priority:</h3>
-              <ol className="list-disc my-3 bg-slate-200 text-slate-700 p-5 rounded-md">
-                <li>South African citizens and residents must not be displaced by foreigners at local educational institutions.</li>
-                <li>The student must demonstrate sufficient funds to cover daily living expenses, accommodation, and tuition fees throughout their stay in South Africa.</li>
-                <li>The student must have adequate medical coverage from a registered South African medical scheme, with proof of such coverage.</li>
-                </ol>
           </div>
-          <div className="text-center md:text-end text-xs"> <p>adapted from http://www.dha.gov.za/index.php/immigration-services/types-of-visas</p> </div>
+          <div className="text-center md:text-end text-xs">
+            {" "}
+            <p>
+              adapted from
+              https://visa.vfsglobal.com/one-pager/dha/southafrica/english/index.html#spouse
+            </p>{" "}
+          </div>
         </section>
       </Modal>
     </>
