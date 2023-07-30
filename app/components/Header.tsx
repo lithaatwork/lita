@@ -6,6 +6,7 @@ import { CgMenuMotion } from "react-icons/cg";
 import SideBar from "./SideBar";
 import { useEffect, useState } from "react";
 import { links } from "@/lib/links";
+import ContactModal from "./ContactModal";
 
 const Header = () => {
   const [showSideBar, setShowSideBar] = useState(false);
@@ -53,7 +54,7 @@ const Header = () => {
 
         <div className="flex justify-end">
           <button className="hidden md:block font-semibold px-4 py-2  rounded-full bg-slate-900 text-white">
-            Contact
+            <ContactModal title={"Contact"}/>
           </button>
           <button className="md:hidden p-1 rounded-full bg-slate-900 text-white hover:bg-white hover:text-slate-900">
             <CgMenuMotion

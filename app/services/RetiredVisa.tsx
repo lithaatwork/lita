@@ -7,9 +7,8 @@ const RetiredVisa = () => {
 
   const closeModal = () => setIsOpen(false);
 
-  const OpenModal = () => {
-    setIsOpen(true);
-  };
+  const OpenModal = () => setIsOpen(true);
+  
   return (
     <>
       <button className="primary-btn" onClick={OpenModal}>
