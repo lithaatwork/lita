@@ -85,9 +85,9 @@ const SideBar = ({ isVisible, onClose, links }: Props) => {
 
                 <div className="flex flex-col space-y-4 justify-center border-t p-5 ">
                   <h3 className="text-lg ">Contact Information</h3>
-                  <p className="flex items-center space-x-2"> <HiPhone className="text-red-600"/> <span className="text-xs">+27 21 510 1461</span> </p>
-                  <p className="flex items-center space-x-2"> <MdEmail className="text-red-600"/> <span className="text-xs">info@litaatwork.co.za</span> </p>
-                  <p className="flex items-center space-x-2"> <MdLocationOn className="text-red-600"/> <span className="text-xs">27B Main Road , Cape Town</span> </p>
+                  <p className="flex items-center space-x-2"> <HiPhone className="text-slate-900"/> <span className="text-xs">+27 21 510 1461</span> </p>
+                  <p className="flex items-center space-x-2"> <MdEmail className="text-slate-900"/> <span className="text-xs">info@lithaatwork.co.za</span> </p>
+                  <p className="flex items-center space-x-2"> <MdLocationOn className="text-slate-900"/> <span className="text-xs">27B Main Road , Cape Town</span> </p>
                 </div>
 
                 <div className="flex space-x-4 justify-center border-t p-5 ">

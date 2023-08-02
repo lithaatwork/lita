@@ -12,7 +12,7 @@ const Services = () => {
       <Container>
         <section className="my-8  px-4 mx-auto max-w-screen-xl ">
         <div className="text-center my-8">
-          <h1 className="text-2xl ">Our Services</h1>
+          <h1 className="text-2xl ">The Visa types we service</h1>
         </div>
         <VisaTypes />
         </section>
