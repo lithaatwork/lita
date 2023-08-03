@@ -2,7 +2,7 @@ export const testimonialsData = [
   {
     id: 2,
     testimony:
-      "I was in a dire situation of needing to process my Visa quickly and Lita at work can through for me",
+      "I was in a dire situation of needing to process my Visa quickly and Litha at work came through for me",
     testifier: "Samie Nujo",
     designation: "Student ",
     country: "from Namibia",
@@ -29,7 +29,7 @@ export const testimonialsData = [
   {
     id: 5,
     testimony:
-      "Lita at Work helped me with getting the right documents to submit as a student when applying for a Visa",
+      "Litha at Work helped me with getting the right documents to submit as a student when applying for a Visa",
     testifier: "Antonio Dos Sante",
     designation: "Student ",
     country: "from Angola",

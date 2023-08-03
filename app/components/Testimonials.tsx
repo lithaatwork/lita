@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
-import { testimonialsData } from "@/lib/testimonials";
+import { testimonialsData } from "@/data/testimonials";
 
 const Testimonials = () => {
   return (
