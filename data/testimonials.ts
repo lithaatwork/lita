@@ -11,7 +11,7 @@ export const testimonialsData = [
   {
     id: 3,
     testimony:
-      "There is no an other agency that I prefer to use when it ome to renewal of my permits while in the Republic",
+      "There is no an other agency that I prefer to use when it comes to renewal of my permits while in the Republic",
     testifier: "Maria Zhekvojic",
     designation: "Lawyer  ",
     country: "from Romania",
@@ -29,7 +29,7 @@ export const testimonialsData = [
   {
     id: 5,
     testimony:
-      "Litha at Work helped me with getting the right documents to submit as a student when applying for a Visa",
+      "Litha at Work helped me with getting the right documents to submit as a student while applying for a Visa",
     testifier: "Antonio Dos Sante",
     designation: "Student ",
     country: "from Angola",

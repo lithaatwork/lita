@@ -16,7 +16,7 @@ const UserTestimonies = ({ testimony, pic, testifier, country }: Props) => {
     <figure className=" ">
       <BiSolidQuoteAltLeft className=" mx-auto mb-3 text-gray-400" size={28} />
       <blockquote>
-        <p className="text-2xl text-center font-medium text-white">{testimony}</p>
+        <p className=" text-lg md:text-xl text-center font-medium text-white">{testimony}</p>
       </blockquote>
       <figcaption className="flex items-center justify-center mt-6 space-x-3">
         <Image
