@@ -20,7 +20,7 @@ export const testimonialsData = [
   {
     id: 4,
     testimony:
-      "These guys are professional, they helped me with all the data I need in no time, My Visa appliccation was easy",
+      "These guys are professional, they helped me with all the data I need in no time, My Visa application was easy",
     testifier: "Tafara Marange",
     designation: "Software Developer",
     country: "from Zimbabwe",
@@ -33,6 +33,15 @@ export const testimonialsData = [
     testifier: "Antonio Dos Sante",
     designation: "Student ",
     country: "from Angola",
+    pic: "/pro.jpg",
+  },
+   {
+    id: 6,
+    testimony:
+      "I needed a stable investment for my finances and discovered LITHA AT WORK. They turned my dreams into reality by helping with permits, visas, and more. Despite the length, the process yielded the desired outcome. Highly recommended! ",
+    testifier: "Julius Tabot",
+    designation: "Business Owner ",
+    country: "from Cameroon",
     pic: "/pro.jpg",
   },
 ];
